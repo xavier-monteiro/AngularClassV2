@@ -1,0 +1,5 @@
+<input type="text" [style.background]="cor" (mouseenter)='changeColor("red")' (focus)='changeColor("pink")' (blur)='changeColor("grey")' (input)='changeColor("green")' (copy)='changeColor("blue")' #meuInput>
+
+<button (click)="changeInput(meuInput)">Change Input</button>
+<button (click)="changeCor(meuInput)">Change Color</button>
+<button (click)="aumentarTamanho(meuInput)">Aumentar Tamanho</button>
