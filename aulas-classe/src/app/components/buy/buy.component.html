@@ -1,0 +1,7 @@
+<p>buy works!</p>
+
+<div *ngFor="let item of listaService.listaCompras">
+  <p [ngClass]="{'comprados': item.carrinho}">{{item.nome}} </p>
+<button (click)="Comprar(item)">Comprar</button>
+</div>
+

@@ -1,0 +1,35 @@
+.my-container{
+  position: relative;
+
+  width: 99vw;
+  height: 85vh;
+ background-image: url("https://i.pinimg.com/originals/be/aa/c2/beaac2bab328b4670c695a900354b3d1.gif");
+ background-repeat: no-repeat;
+background-size: cover;
+ }
+
+ #textError{
+  position: absolute;
+  color: red;
+  font-size: 40px;
+  left: 40%;
+ }
+
+ #text404{
+  position: absolute;
+  color: red;
+  font-size: 80px;
+  left: 40%;
+  top:10%;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+ }
+
+
+ @keyframes example {
+  0%   {color: red; left:40%; top:10%;}
+  25%  {color: yellow; left:60%; top:40%;}
+  50%  {color: blue; left:20%; top:40%;}
+  100% {color: green; left:40%; top:10%;}
+}

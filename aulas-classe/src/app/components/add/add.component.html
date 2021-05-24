@@ -1,0 +1,8 @@
+<p>add works!</p>
+
+<button (click)="AdicionarLista(nome.value,preco.value)">Adicionar</button>
+<input type="text" #nome>
+<input type="text" #preco>
+<div *ngFor="let artigo of listaService.listaCompras">
+  <p  [ngClass]="{'comprados': artigo.carrinho}" >  {{artigo.nome}} {{artigo.preco}}€</p>
+</div>

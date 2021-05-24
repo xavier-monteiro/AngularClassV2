@@ -9,6 +9,12 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FormsModule } from '@angular/forms';
 import { EvAndRefComponent } from './components/ev-and-ref/ev-and-ref.component';
 import { ClinicaVeterinariaComponent } from './components/clinica-veterinaria/clinica-veterinaria.component';
+import { Pag404Component } from './components/pag404/pag404.component';
+import { ListaComprasComponent } from './components/lista-compras/lista-compras.component';
+import { AddComponent } from './components/add/add.component';
+import { BuyComponent } from './components/buy/buy.component';
+import { PColorComponent } from './components/p-color/p-color.component';
+import { SColorComponent } from './components/p-color/s-color/s-color.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +24,12 @@ import { ClinicaVeterinariaComponent } from './components/clinica-veterinaria/cl
     NavBarComponent,
     EvAndRefComponent,
     ClinicaVeterinariaComponent,
+    Pag404Component,
+    ListaComprasComponent,
+    AddComponent,
+    BuyComponent,
+    PColorComponent,
+    SColorComponent,
 
   ],
   imports: [
