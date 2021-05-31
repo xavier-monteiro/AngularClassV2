@@ -15,6 +15,8 @@ import { AddComponent } from './components/add/add.component';
 import { BuyComponent } from './components/buy/buy.component';
 import { PColorComponent } from './components/p-color/p-color.component';
 import { SColorComponent } from './components/p-color/s-color/s-color.component';
+import { ChuckNorrisComponent } from './components/chuck-norris/chuck-norris.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,12 +32,15 @@ import { SColorComponent } from './components/p-color/s-color/s-color.component'
     BuyComponent,
     PColorComponent,
     SColorComponent,
+    ChuckNorrisComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
