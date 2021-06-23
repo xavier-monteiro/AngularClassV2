@@ -17,6 +17,7 @@ import { PColorComponent } from './components/p-color/p-color.component';
 import { SColorComponent } from './components/p-color/s-color/s-color.component';
 import { ChuckNorrisComponent } from './components/chuck-norris/chuck-norris.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CookiesComponent } from './components/cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { HttpClientModule } from '@angular/common/http';
     PColorComponent,
     SColorComponent,
     ChuckNorrisComponent,
+    CookiesComponent,
 
   ],
   imports: [

@@ -17,6 +17,7 @@ export class ChuckNorrisComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
   resultado : any;
    piada : string ="Espera pela piada";
    getJoke(){

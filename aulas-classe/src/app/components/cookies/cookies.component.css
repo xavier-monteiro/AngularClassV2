@@ -1,0 +1,29 @@
+#bolachas{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 25vh;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+
+  animation-name: cookieAnimation;
+  animation-duration: 1s;
+}
+#texto{
+  position: relative;
+  /*top: 40%;*/
+}
+#btn-aceitar{
+  position: relative;
+  /*top: 25%;*/
+  left: 2%;
+  width: 100px;
+  background-color: hotpink;
+
+}
+
+@keyframes cookieAnimation{
+  from{bottom: -25vh;}
+  to{bottom: 0vh;}
+}
